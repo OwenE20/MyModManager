@@ -1,0 +1,46 @@
+lib/SIL/src/sysdep/windows/main.c:72(WinMain): Executable architecture: x86 32-bit
+lib/SIL/src/sysdep/windows/main.c:78(WinMain): Windows version: 0x0603
+lib/SIL/src/sysdep/windows/main.c:151(WinMain): Timer resolution: 1 ms
+lib/SIL/src/sysdep/windows/condvar.c:109(sys_condvar_create): Using native condition variables
+lib/SIL/src/sysdep/windows/d3d-base.c:89(d3d_open_library): d3d11.dll successfully loaded
+lib/SIL/src/sysdep/windows/d3d-base.c:103(d3d_open_library): d3dcompiler_47.dll successfully loaded
+lib/SIL/src/sysdep/windows/graphics.c:526(sys_graphics_init): opengl32.dll successfully loaded
+lib/SIL/src/sysdep/windows/graphics.c:538(sys_graphics_init): Enumerating display devices
+lib/SIL/src/sysdep/windows/graphics.c:583(sys_graphics_init): 2 devices found
+lib/SIL/src/sysdep/windows/graphics.c:586(sys_graphics_init): Enumerating display modes
+lib/SIL/src/sysdep/windows/graphics.c:632(sys_graphics_init): Device 0 (\\.\DISPLAY1) default mode: 2048x1152x32 @ 60 Hz, position 0,0
+lib/SIL/src/sysdep/windows/graphics.c:632(sys_graphics_init): Device 1 (\\.\DISPLAY2) default mode: 1024x768x32 @ 60 Hz, position 2048,103
+lib/SIL/src/sysdep/windows/graphics.c:741(sys_graphics_init): 74 modes found
+lib/SIL/src/sysdep/windows/input.c:592(sys_input_init): Enumerating XInput joysticks
+lib/SIL/src/sysdep/windows/input.c:596(sys_input_init): Enumerating HID joysticks
+lib/SIL/src/sysdep/windows/input.c:599(sys_input_init): 0 joysticks found
+Version: 1.6.7
+Loading settings
+lib/SIL/src/sysdep/windows/userdata.c:596(do_load): CreateFile(settings.ini) failed: 00000002: The system cannot find the file specified.
+Failed to load settings file!
+Starting up
+Loading text
+Initializing Video
+Video: 1280x720, windowed
+lib/SIL/src/sysdep/windows/graphics.c:2598(create_window): Creating window: title=[FTL: Faster Than Light] style=0x10CF0000 origin=-2147483648,-2147483648 size=1296x759
+lib/SIL/src/sysdep/opengl/graphics.c:420(opengl_init): OpenGL version: 4.6.0 NVIDIA 388.13
+lib/SIL/src/sysdep/opengl/graphics.c:421(opengl_init): GLSL version: 4.60 NVIDIA
+lib/SIL/src/sysdep/opengl/graphics.c:422(opengl_init): OpenGL vendor: NVIDIA Corporation
+lib/SIL/src/sysdep/opengl/graphics.c:423(opengl_init): OpenGL renderer: GeForce GTX 950/PCIe/SSE2
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 0: GL_AMD_multi_draw_indirect
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 1: GL_AMD_seamless_cubemap_per_texture
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 2: GL_AMD_vertex_shader_viewport_index
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 3: GL_AMD_vertex_shader_layer
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 4: GL_ARB_arrays_of_arrays
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 5: GL_ARB_base_instance
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 6: GL_ARB_bindless_texture
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 7: GL_ARB_blend_func_extended
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 8: GL_ARB_buffer_storage
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 9: GL_ARB_clear_buffer_object
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 10: GL_ARB_clear_texture
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 11: GL_ARB_clip_control
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 12: GL_ARB_color_buffer_float
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 13: GL_ARB_compatibility
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 14: GL_ARB_compressed_texture_pixel_storage
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 15: GL_ARB_conservative_depth
+lib/SIL/src/sysdep/opengl/graphics.c:428(opengl_init): OpenGL extension 16: GL_ARB_compute_shader
